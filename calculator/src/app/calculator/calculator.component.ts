@@ -15,18 +15,15 @@ export class CalculatorComponent implements OnInit {
   ngOnInit() {
     
   }
-  /*add(data){
+  add(data){
     if(data=="="){
       this.result=eval(this.result);
     }
     else{
       this.result+=data;
     }
-    }*/
-
-    add(data){
-      this.result+=data;
     }
+
       
           
   
