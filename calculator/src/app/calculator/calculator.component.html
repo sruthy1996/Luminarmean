@@ -1,0 +1,60 @@
+<body>
+ <p>{{tittle}}</p>
+<div>
+    <input type="text" name="result"  value="{{result}}">
+</div>
+<div>
+    <table>
+    <tr  >
+    <td >
+    <button (click)="add('1')" value="1" >1</button>
+    </td>
+    <td >
+    <button (click)="add('2')" value="2" >2</button>
+    </td>
+    <td >
+    <button (click)="add('3')" value="3"  >3</button>
+    </td>
+    <td >
+    <button (click)="add('+')" value="+"  >+</button>
+    </td>
+    </tr>
+    <tr  >
+    <td >
+    <button (click)="add('5')" value="4"  >4</button>
+    </td>
+    <td>
+    <button (click)="add('6')" value="5"  >5</button>
+    </td>
+    <td >
+    <button (click)="add('7')" value="6" >6</button>
+    </td>
+    <td >
+    <button (click)="add('-')" value="-"  >-</button>
+    </td>
+    </tr>
+    <tr  >
+    <td >
+    <button (click)="add('7')" value="7" >7</button>
+    </td>
+    <td >
+    <button (click)="add(['8'])" value="8" >8</button>
+    </td>
+    <td >
+    <button (click)="add('9')" value="9"  >9</button>
+    </td>
+    <td >
+    <button (click)="add('*')" value="*"  >*</button>
+    </td>
+    </tr>
+    <tr>
+       <td><button (click)="add('0')" value="0"  >0</button></td>
+        <td><button (click)="add('.')" value="."  >.</button></td>
+        <td><button (click)="add('C')" value="C"  >C</button></td>
+        <td><button (click)="add('=')" value="="  >=</button></td>
+               
+        </tr>
+
+    </table>
+    </div>
+</body>
